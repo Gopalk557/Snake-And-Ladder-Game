@@ -10,9 +10,9 @@ namespace Snake_And_Ladder_Game
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Welcome to the Snake And Ladder Problem sollution");
+            
             SnakeLadder player1 = new SnakeLadder();
-            player1.DiceRoll();
+            player1.Play();
             Console.ReadKey();
         }
     }
